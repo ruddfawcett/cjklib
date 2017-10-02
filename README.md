@@ -86,19 +86,22 @@ Examples
 
 - Get stroke order of characters::
 
+```
     >>> from cjklib import characterlookup
     >>> cjk = characterlookup.CharacterLookup('C')
     >>> cjk.getStrokeOrder(u'说')
     [u'㇔', u'㇊', u'㇔', u'㇒', u'㇑', u'㇕', u'㇐', u'㇓', u'㇟']
+```
 
 - Access a dictionary (here using Jim Breen's EDICT)::
 
+```
     >>> from cjklib.dictionary import EDICT
     >>> d = EDICT()
     >>> d.getForTranslation('Tokyo')
     [EntryTuple(Headword=u'東京', Reading=u'とうきょう',
     Translation=u'/(n) Tokyo (current capital of Japan)/(P)/')]
-
+```
 
 Database
 ========
