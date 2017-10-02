@@ -1,8 +1,5 @@
-===========================
 Installing and Using Cjklib
 ===========================
-
-.. contents::
 
 Introduction
 ============
